@@ -1,0 +1,8 @@
+{
+    "type":"object",
+    "properties":{
+        "email":{"type":"string"},
+        "age":{"type":"integer","minimum":18}
+    },
+    "required":["email","age"]
+}

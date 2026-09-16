@@ -1,0 +1,11 @@
+{
+    "Name":"Ukeed",
+    "age":22,
+    "timeSpent":124.32,
+    "isEmployed":true,
+    "Salary":null,
+    "obj":{
+        "address":"Marathalli"
+    },
+    "workingOn":[124,12,245]
+}

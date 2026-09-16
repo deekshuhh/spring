@@ -1,0 +1,11 @@
+{
+    "type":"object",
+    "properties":{
+        "name":{"type":"string","minLength":2},
+        "productId":{"type":"integer"},
+        "price":{"type":"integer","minimum":0},
+        "category":{"type":"string","enum":["Electronics","Home","Books"]},
+        "optional":{"type":"array"}
+    },
+    "required":["name","productId","price","category"]
+}

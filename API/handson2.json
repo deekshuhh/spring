@@ -1,0 +1,8 @@
+{
+    "$schema": "./schema2.json",
+    "name": "abs",
+    "category": "Electronics",
+    "optional": ["asfsa","afsad"],
+    "price": 23,
+    "productId": 12434314
+}

@@ -1,0 +1,26 @@
+{
+  "customerId": "CUST100245",
+  "customerName": "Ananya Sharma",
+  "mobileNumber": "+91-9876543210",
+  "email": "ananya.sharma@example.com",
+  "pan": "BQZPS4821L",
+  "aadhaar": "1234-5678-9012",
+  "address": {
+    "line1": "24 Lake View Road",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "postalCode": "560001",
+    "country": "India"
+  },
+  "kycStatus": "VERIFIED",
+  "accounts": [
+    {
+      "accountNumber": "SB1002456789",
+      "branch": {
+        "branchName": "MG Road Branch",
+        "ifscCode": "SMBK0001024"
+      },
+      "currentBalance": 84500.75
+    }
+  ]
+}

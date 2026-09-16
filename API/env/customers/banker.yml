@@ -1,0 +1,35 @@
+info:
+  name: banker
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: "{{base}}"
+  auth: inherit
+
+runtime:
+  scripts:
+    - type: tests
+      code: |-
+        test("Status is 200 test1", function() {
+          expect(res.getStatus()).to.equal(200);
+        })
+        test("the content type is json", function() {
+          expect(res.getHeader("content-type")).to.include("application/json");
+        })
+
+        test("Response has id", function() {
+          const data=res.getBody();
+          data.forEach(d=>{
+             expect(d).to.have.property("id");
+            expect(d).to.have.property("balance").to.be.a.("number");
+          })
+         
+        })
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

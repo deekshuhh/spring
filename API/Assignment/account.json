@@ -1,0 +1,17 @@
+{
+  "accountNumber": "SB1002456789",
+  "accountType": "SAVINGS",
+  "balance": 84500.75,
+  "currency": "INR",
+  "branchDetails": {
+    "branchName": "MG Road Branch",
+    "branchCode": "1024",
+    "ifscCode": "SMBK0001024",
+    "city": "Bengaluru"
+  },
+  "nomineeDetails": {
+    "name": "Rohan Sharma",
+    "relationship": "Brother",
+    "dateOfBirth": "1998-06-15"
+  }
+}

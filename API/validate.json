@@ -1,0 +1,6 @@
+{
+    "$schema": "./schema.json",
+    "name":"Johndoe",
+    "age":12,
+    "number": 0
+}
